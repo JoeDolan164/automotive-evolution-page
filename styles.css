@@ -81,6 +81,12 @@
 
   /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
+  * {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
   body {
     font-size: 14px; /* Reduce font size */
     margin: 0px;    /* Reduce margins */
