@@ -26,11 +26,12 @@
   /* Main heading */
   h1 {
     font-family: "Merriweather", "Boldonse", "Roboto", Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0 0 15px;
-    max-width: 70%;
+    max-width: 90%;
     font-weight: bold;
     line-height: 1.2;
+    padding-left: 50px;
     padding-bottom: 30px;
     margin-bottom: 40px;
     border-bottom: 1px solid #ccc;
@@ -103,4 +104,31 @@
     height: auto; /* Automatically adjust height */
     aspect-ratio: 16 / 9; /* Ensures correct aspect ratio */
   }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 480px) {
+    * {
+      margin: 5px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-size: 14px; /* Reduce font size */
+      margin: 0px;    /* Reduce margins */
+      padding: 0px;   /* Reduce padding */
+      max-width: 100%; /* Allow content to expand */
+    }
+  
+    h1 {
+      font-size: 2rem; /* Reduce font size */
+      max-width: 100%; /* Allow content to expand */
+      padding: 0 0 30px; /* Reduce padding */
+    }
+  
+    iframe {
+      width: 100%; /* Make videos responsive */;
+      height: auto; /* Automatically adjust height */
+      aspect-ratio: 16 / 9; /* Ensures correct aspect ratio */
+    }
 }
