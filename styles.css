@@ -10,7 +10,7 @@ body {
   font-family: "Merriweather","Roboto", Arial, sans-serif; /* Or use your preferred font stack */
   font-size: 16px;
   line-height: 1.5;
-  max-width: 70%;
+  max-width: 80%;
   color: #333;
   background-color: #f9f9f9; /* Neutral background */
   margin: 0;
@@ -80,7 +80,7 @@ img {
 @media (max-width: 768px) {
   * {
     margin: 5px;
-    padding: 5px 5px 20px 0px;
+    padding: 5px 5px 20px 0;
     box-sizing: border-box;
   }
 
@@ -127,6 +127,6 @@ img {
     width: 100%; /* Make videos responsive */;
     height: auto; /* Automatically adjust height */
     aspect-ratio: 16 / 9; /* Ensures correct aspect ratio */
-    picture-in-picture: none; /* Disable picture-in-picture */
   }
+}
 }
