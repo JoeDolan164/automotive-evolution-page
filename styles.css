@@ -8,9 +8,9 @@
 /* Body defaults */
 body {
   font-family: "Merriweather","Roboto", Arial, sans-serif; /* Or use your preferred font stack */
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  max-width: 80%;
+  max-width: 90%;
   color: #333;
   background-color: #f9f9f9; /* Neutral background */
   margin: 0;
@@ -19,7 +19,7 @@ body {
 /* Container utility */
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
   
@@ -75,6 +75,20 @@ img {
 }
 
   /* Add more reusable styles below */
+
+@media (max-width: 1024px) {
+  * {
+    margin: 10px;
+    padding: 5px 5px 20px 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 18px; /* Reduce font size */
+    margin: 0px;    /* Reduce margins */
+    padding: 0px;   /* Reduce padding */
+    max-width: 100%; /* Allow content to expand */
+  }
 
   /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
