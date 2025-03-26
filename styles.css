@@ -109,12 +109,12 @@
 @media (max-width: 480px) {
   * {
     margin: 5px !important;
-    padding: 5px 0 20px 0 !important;
+    padding: 5px 5px 20px 0 !important;
     box-sizing: border-box;
   }
   
   body {
-    font-size: 14px; /* Reduce font size */
+    font-size: 18px; /* Reduce font size */
     margin: 0px;    /* Reduce margins */
     padding: 0px;   /* Reduce padding */
     width: 100% !important; /* Allow content to expand */
