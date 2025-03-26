@@ -1,95 +1,91 @@
 /* Resetting default styles */
 * {
-    margin: 20px;
-    padding: 5px;
-    box-sizing: border-box;
+  margin: 20px;
+  padding: 5px;
+  box-sizing: border-box;
   }
   
-  /* Body defaults */
-  body {
-    font-family: "Merriweather","Roboto", Arial, sans-serif; /* Or use your preferred font stack */
-    font-size: 16px;
-    line-height: 1.5;
-    max-width: 70%;
-    color: #333;
-    background-color: #f9f9f9; /* Neutral background */
-    margin: 0;
-  }
+/* Body defaults */
+body {
+  font-family: "Merriweather","Roboto", Arial, sans-serif; /* Or use your preferred font stack */
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 70%;
+  color: #333;
+  background-color: #f9f9f9; /* Neutral background */
+  margin: 0;
+}
   
-  /* Container utility */
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+/* Container utility */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
   
-  /* Main heading */
-  h1 {
-    font-family: "Merriweather", "Boldonse", "Roboto", Arial, sans-serif;
-    font-size: 3.5rem;
-    margin: 0 0 15px;
-    max-width: 90%;
-    font-weight: bold;
-    line-height: 1.2;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #ccc;
-  } 
+/* Main heading */
+h1 {
+  font-family: "Merriweather", "Boldonse", "Roboto", Arial, sans-serif;
+  font-size: 3.5rem;
+  margin: 0 0 15px;
+  max-width: 90%;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+} 
 
-  /* Headings */
-  h2, h3, h4, h5, h6 {
-    font-family: "Boldonse", "Roboto", Arial, sans-serif;
-    margin: 0 0 15px;
-    font-weight: bold;
-    line-height: 1.2;
-    padding-bottom: 30px;
-  }
+/* Headings */
+h2, h3, h4, h5, h6 {
+  font-family: "Boldonse", "Roboto", Arial, sans-serif;
+  margin: 0 0 15px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
 
-  .heading-p {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
-  }
+.heading-p {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
   
-  /* Links */
-  a {
-    color: #007BFF;
-    text-decoration: none;
-  }
+/* Links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
   
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
+}
   
-  /* Images */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
   
-  /* Utility classes */
-  .text-center {
-    text-align: center;
-  }
-  
-  .mt-1 { margin-top: 1rem; }
-  .mt-2 { margin-top: 2rem; }
-  .mt-3 { margin-top: 3rem; }
-  
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
   /* Add more reusable styles below */
 
   /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
   * {
-    margin: 10px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px 5px 20px 0px;
     box-sizing: border-box;
   }
 
   body {
-    font-size: 14px; /* Reduce font size */
+    font-size: 18px; /* Reduce font size */
     margin: 0px;    /* Reduce margins */
     padding: 0px;   /* Reduce padding */
     max-width: 100%; /* Allow content to expand */
@@ -103,6 +99,7 @@
     width: 100%; /* Make videos responsive */;
     height: auto; /* Automatically adjust height */
     aspect-ratio: 16 / 9; /* Ensures correct aspect ratio */
+    border: none; /* Remove border */
   }
   
   /* Styles for smaller screens */
@@ -130,5 +127,6 @@
     width: 100%; /* Make videos responsive */;
     height: auto; /* Automatically adjust height */
     aspect-ratio: 16 / 9; /* Ensures correct aspect ratio */
+    picture-in-picture: none; /* Disable picture-in-picture */
   }
 }
